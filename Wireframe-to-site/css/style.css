@@ -1,0 +1,123 @@
+body {
+	background-image: url("../img/flyer-background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box-div2 {
+	box-sizing: content-box;
+	padding: 20px;
+	border: 5px double #f4f6f9; /*cardboard box*/
+	color: black;
+	text-align: center;
+	margin: 3px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 60px;
+	background: transparent; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, transparent, #d0e4e8 ); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, transparent, #d0e4e8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, transparent, #d0e4e8 ); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, transparent, #d0e4e8 ); /* Standard syntax */
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+#box-div {
+	box-sizing: content-box;
+	border: 3px solid #f5d9fc;	
+	box-shadow: 1px 1px 5px #555 inset;
+}
+
+li {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	font-family: 'Fresca', sans-serif;
+}
+
+#food-section, #special-guest-section {
+	box-sizing: content-box;
+	display: inline-block;
+	padding-left: 300px;
+	text-align: center;
+}
+
+#special-guest-section h2 {
+	text-align: center;
+}
+
+#food-section h2, #DJ-entertainment-section h2 {
+	text-align: center;
+}
+
+.special-guest-list, .food-list {
+	list-style: none;
+}
+
+#location {
+	line-height: 2px;
+	text-align: center;
+}
+
+#DJ-entertainment-section p {
+	background: black;
+	color: gold;
+	padding: 20px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.longpic {
+	width: 185px;
+}
+
+.shortpic {
+	box-sizing: border-box;
+}
+
+.yellow {
+	background: #FAC820;
+	color: black;
+	padding: 20px;
+	border: solid 3px #f6bb36;
+	margin-bottom: 0;
+	border-bottom: 0;
+	-moz-box-shadow:    inset 0 0 10px #f29532;
+	-webkit-box-shadow: inset 0 0 10px #f29532;
+	box-shadow:         inset 0 0 10px #f29532;
+}
+
+#DJ-entertainment-section img {
+	margin-top: 0;
+}
+
+.DJ {
+	width: auto;
+	float: left; 
+ }
+
+ #move-over-2right {
+ 	margin-left: 400px;
+ }
+
+#food-section {
+	border-right: solid 2px;
+	padding-right: 6px;
+	margin-left: 170px;
+	margin-top: 0;
+}
+
+#special-guest-section {
+	padding-left: 0;
+}
+
+#small-text {
+	font-size: 20px;
+	Line-height: 10px;
+}
+/*
+e8a261*/
